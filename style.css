@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    height: 60px;
+    width: 100%;
+  }
+  .header h1{
+      color:rgb(170, 23, 4);
+  }
+  .container1 {
+    background-color: rgba(39, 79, 139, 0.664);
+    position: fixed;
+    font-family: Elephant;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .container1 h1 {
+    margin: 10px;
+  }
+  .body {
+    display: flex;
+    height: 50pc;
+  }
+  .result {
+    width: 50%;
+    background-color: rgba(39, 79, 139, 0.664);
+  }
+  .form {
+    width: 50%;
+    background-color: rgba(39, 79, 139, 0.664);
+  }
+  .form h1 {
+    text-align: left;
+  }
+  .body input {
+    padding: 5px;
+    
+  }
+  .cont6 {
+    margin: 6pc;
+    text-align: left;
+  }
+  .cont6 ol li input{
+      text-align: left;
+  }
+  .cont7 {
+    padding: 1pc;
+    margin: 5pc;
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    display: active;
+
+  }
+  .result h1 {
+    text-align: center;
+    color: #cdee14;
+  }
+  .body h1 {
+    text-align: center;
+    color: #cdee14;
+  }
+  .button {
+    background-color: #088318; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .harry {
+    color: rgb(235, 33, 6);
+  }
+
+  .table, th, td {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    
+  }
+
+  th, td {
+    background-color: #96D4D4;
+  }

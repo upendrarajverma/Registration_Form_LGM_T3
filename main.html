@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-widh, initial-scale=1.0" />
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="header">
+            <nav class="container1">
+                <h1>Student Enrollment Form</h1>
+            </nav>
+        </div>
+        <div class="body">
+            <div class ="form">
+                <h1>Enter Your Details</h1>
+                    <div class="cont6">
+                        <ol>
+                            <li>
+                                <h2>Name   :<input type="text" name="fname" id="fname" /></h2>
+                                
+                            </li>
+                            <li>
+                                <h2>Email  :<input type="text" name="email" id="email" /></h2>
+                                
+                            </li>
+                            <li>
+                                <h2>Age    :<input type="text" name="age" id="age" /></h2>
+                                
+                            </li>
+                            <li>
+                                <h2>Sex    :<input type="text" name="sex" id="sex" /></h2>
+                                
+                            </li>
+                            <li>
+                                <h2>Contact    :<input type="text" name="number" id="number" /></h2>
+                                
+                            </li>
+                        </ol>
+                        <button id="entry" class="button" onclick="AddRow()">Save Record</button>
+                        
+                    </div>
+                </div>
+                <div class="result">
+                    <h1 class="harry">Enrolled Students</h1>
+                    <div class="cont7">
+                        <table border="3" id="show">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Age</th>
+                                    <th>Sex</th>
+                                    <th>Contact</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>
